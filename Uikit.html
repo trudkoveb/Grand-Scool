@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Grand Class Uikit</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <p class="uikit-title">Цвета</p>
+          <div class="color black"></div>
+          <div class="color blue"></div>
+          <div class="color red"></div>
+          <div class="color white"></div>
+          <div class="color grey"></div>
+          <div class="color middle-grey"></div>
+          <div class="color light-grey"></div>
+          <div class="color green"></div>
+        </div>
+        <div class="row">
+          <p class="uikit-title">типографика</p>
+          <div class="col-md-6">
+            <h1>Заголовок 1</h1>
+            <h2>Заголовок 2</h2>
+            <h3>Заголовок 3</h3>
+          </div>
+          <div class="col-md-6">
+            <p class="large">Укрупненный текст</p>
+            <p>Основной текст</p>
+            <p class="small">Мелкий текст</p>
+            <p class="tag">подпись / бирка</p>
+            <p class="light-tag">бледная подпись / бирка</p>
+          </div>
+        </div>
+        <div class="row">
+          <p class="uikit-title">ссылки</p>
+          <a href="#">Прикрепить файл</a><br>
+          <span class="icon-pen"></span><a href="#">Редактировать модуль</a>
+          <span class="icon-bin"></span><a href="#">Удалить модуль</a>
+        </div>
+        <div class="row">
+          <p class="uikit-title">кнопки</p>
+          <p>Через button</p>
+          <button class="btn btn-red">кнопка</button>
+          <button class="btn btn-blue">кнопка</button>
+          <button class="btn btn-word">кнопка</button>
+          <hr>
+          <button class="btn btn-red-blocked">кнопка</button>
+          <button class="btn btn-blue-blocked">кнопка</button>
+          <button class="btn btn-word-blocked">кнопка</button>
+          <hr>
+          <button class="btn btn-red"><span class="icon-plus"></span>кнопка</button>
+          <button class="btn btn-red">кнопка<span class="icon-arrow-right"></span></button>
+          <hr>
+          <button class="btn btn-blue"><span class="icon-plus"></span>кнопка</button>
+          <button class="btn btn-blue">кнопка<span class="icon-arrow-right"></span></button>
+          <hr>
+          <!--  -->
+          <ul class="dropdown">
+            <li class="same-width">
+              <button data-toggle="dropdown" class="dropdown-toggle btn btn-red"><span class="icon-plus"></span>кнопка<span class="icon-arrow-down"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">главу</a></li>
+                <li><a href="#">Видео</a></li>
+                <li><a href="#">тест</a></li>
+                <li><a href="#">задание</a></li>
+                <li><a href="#">аудиозапись</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--  -->
+          <ul class="dropdown">
+            <li class="same-width">
+              <button data-toggle="dropdown" class="dropdown-toggle btn btn-blue"><span class="icon-plus"></span>кнопка<span class="icon-arrow-down"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">главу</a></li>
+                <li><a href="#">Видео</a></li>
+                <li><a href="#">тест</a></li>
+                <li><a href="#">задание</a></li>
+                <li><a href="#">аудиозапись</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--  -->
+          <ul class="dropdown">
+            <li class="same-width">
+              <button data-toggle="dropdown" class="dropdown-toggle btn btn-word"><span class="icon-plus"></span>кнопка</button>
+              <ul class="dropdown-menu">
+                <li><a href="#">главу</a></li>
+                <li><a href="#">Видео</a></li>
+                <li><a href="#">тест</a></li>
+                <li><a href="#">задание</a></li>
+                <li><a href="#">аудиозапись</a></li>
+              </ul>
+            </li>
+          </ul>
+          <hr>
+          <p>Через a</p>
+          <a href="#" class="btn btn-red">кнопка</a>
+          <a href="#" class="btn btn-blue">кнопка</a>
+          <a href="#" class="btn btn-word">кнопка</a>
+          <hr>
+          <a href="#" class="btn btn-red-blocked">кнопка</a>
+          <a href="#" class="btn btn-blue-blocked">кнопка</a>
+          <a href="#" class="btn btn-word-blocked">кнопка</a>
+          <hr>
+          <a href="#" class="btn btn-red"><span class="icon-plus"></span>кнопка</a>
+          <a href="#" class="btn btn-red">кнопка<span class="icon-arrow-right"></span></a>
+          <hr>
+          <a href="#" class="btn btn-blue"><span class="icon-plus"></span>кнопка</a>
+          <a href="#" class="btn btn-blue">кнопка<span class="icon-arrow-right"></span></a>
+          <hr>
+          <!--  -->
+          <ul class="dropdown">
+            <li class="same-width">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-red"><span class="icon-plus"></span>кнопка<span class="icon-arrow-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">главу</a></li>
+                <li><a href="#">Видео</a></li>
+                <li><a href="#">тест</a></li>
+                <li><a href="#">задание</a></li>
+                <li><a href="#">аудиозапись</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--  -->
+          <ul class="dropdown">
+            <li class="same-width">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-blue"><span class="icon-plus"></span>кнопка<span class="icon-arrow-down"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">главу</a></li>
+                <li><a href="#">Видео</a></li>
+                <li><a href="#">тест</a></li>
+                <li><a href="#">задание</a></li>
+                <li><a href="#">аудиозапись</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--  -->
+          <ul class="dropdown">
+            <li class="same-width">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle btn btn-word"><span class="icon-plus"></span>кнопка</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">главу</a></li>
+                <li><a href="#">Видео</a></li>
+                <li><a href="#">тест</a></li>
+                <li><a href="#">задание</a></li>
+                <li><a href="#">аудиозапись</a></li>
+              </ul>
+            </li>
+          </ul>
+          <hr>
+          <p>Через input[type=submit]</p>
+          <input type="submit" class="btn btn-red" value="кнопка">
+          <input type="submit" class="btn btn-blue" value="кнопка">
+          <input type="submit" class="btn btn-word" value="кнопка">
+          <hr>
+          <input type="submit" class="btn btn-red-blocked" value="кнопка">
+          <input type="submit" class="btn btn-blue-blocked" value="кнопка">
+          <input type="submit" class="btn btn-word-blocked" value="кнопка">
+          <hr>
+        </div>
+        <div class="row">
+          <p class="uikit-title">бэйджи</p>
+          <span class="icon-mail bage message-sum"></span> <p style="display: inline-block;margin-left:30px;">Просто span</p>
+          <hr>
+          <a href="#" class="icon-mail bage message-sum"></a> <p style="display: inline-block;margin-left:30px;">Через a</p>
+          <hr>
+          <button class="icon-mail bage message-sum"></button> <p style="display: inline-block;margin-left:30px;">Через button</p>
+        </div>
+        <div class="row">
+          <p class="uikit-title">тэги</p>
+          <span class="tags">Бизнес</span>
+          <span class="tags">Искусство</span> <p style="display: inline-block;margin-left:30px;">Просто span</p>
+          <hr>
+          <a href="#" class="tags tags-active">Бизнес</a>
+          <a href="#" class="tags">Искусство</a> <p style="display: inline-block;margin-left:30px;">Через a</p>
+          <hr>
+          <button class="tags tags-active">Бизнес</button>
+          <button class="tags">Искусство</button> <p style="display: inline-block;margin-left:30px;">Через button</p>
+        </div>
+        <div class="row">
+          <p class="uikit-title">элементы форм</p>
+          <div class="col-md-4">
+            <input type="text" placeholder="Обучение фотографии с нуля">
+            <hr>
+            <div class="input-group">
+              <input type="text" class="form-control input-search" placeholder="Поиск">
+              <span class="input-group-btn">
+                <button class="btn btn-default icon-search input-search-btn" type="button"></button>
+              </span>
+            </div>
+            <hr>
+            <textarea name="" id="" placeholder="Обучение фотографии с нуля"></textarea>
+          </div>
+          <div class="col-md-4">
+            <!--  -->
+            <label>
+              <input class="input-radio" type="radio" name="radio">
+              <span class="radio-skin"></span>
+              <span class="label">Радиобаттон</span>
+            </label><br>
+            <label>
+              <input class="input-radio" type="radio" name="radio">
+              <span class="radio-skin"></span>
+              <span class="label">Активный радиобаттон</span>
+            </label>
+            <!--  -->
+            <hr>
+            <!--  -->
+            <label>
+            <input class="input-checkbox" type="checkbox" name="checkbox">
+              <span class="checkbox-skin"></span>
+              <span class="label">Чекбокс</span>
+            </label><br>
+            <label>
+            <input class="input-checkbox" type="checkbox" name="checkbox">
+              <span class="checkbox-skin"></span>
+              <span class="label">Активный чекбокс</span>
+            </label>
+            <hr>
+            <!--  -->
+            <input type="checkbox" class="toggle-checkbox" id="checkbox-b">
+            <label for="checkbox-b">Да</label>
+            <hr>
+            <input type="checkbox" class="toggle-checkbox" id="checkbox">
+            <label for="checkbox">Нет</label>
+            <!--  -->
+          </div>
+          <div class="col-md-4">
+            <label for="">Label</label><br>
+            <ul tabindex="1" class="pseudo-select">
+              <li class="init">Выберите</li>
+              <li data-value="value 1">Первый вариант</li>
+              <li data-value="value 2">Второй вариант</li>
+              <li data-value="value 3">Третий вариант</li>
+            </ul>
+            <hr>
+            <ul tabindex="1" class="pseudo-select-multiple">
+              <li class="init-multiple">Выбрано пунктов: <span id="result"></span></li>
+              <li data-value="value 1">
+                <label>
+                  <input class="input-checkbox" type="checkbox" name="checkbox-dropdown">
+                  <span class="checkbox-skin"></span>
+                  <span class="label">Первый вариант</span>
+                </label>
+              </li>
+              <li data-value="value 2">
+                <label>
+                  <input class="input-checkbox" type="checkbox" name="checkbox-dropdown">
+                  <span class="checkbox-skin"></span>
+                  <span class="label">Второй вариант</span>
+                </label>
+              </li>
+              <li data-value="value 3">
+                <label>
+                  <input class="input-checkbox" type="checkbox" name="checkbox-dropdown">
+                  <span class="checkbox-skin"></span>
+                  <span class="label">Третий вариант</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="emails-choices">
+              <div class="email-skin">
+                <span class="email">mail@mail.ru</span><button><span class="glyphicon glyphicon-remove"></span></button>
+              </div>
+              <div class="email-skin">
+                <span class="email">mailru@mail.ru</span><a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+              </div>
+              <div class="email-skin">
+                <span class="email">clients@grandcapital.net</span><span class="glyphicon glyphicon-remove"></span>
+              </div>
+              <div class="email-skin">
+                <span class="email">mailru@mail.ru</span><span class="glyphicon glyphicon-remove"></span>
+              </div>
+              <div class="email-skin">
+                <span class="email">mailru@mail.ru</span><span class="glyphicon glyphicon-remove"></span>
+              </div>
+              <div class="email-skin">
+                <span class="email">mail@mail.ru</span><span class="glyphicon glyphicon-remove"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <p class="uikit-title">карточки</p>
+          <!--  -->
+          <a href="#" class="cards big-card bg-big-card example">
+            <p class="authors">Петр самойлов, Денис Введенский</p>
+            <p class="name">Комплексные решения в области
+              обучения кадров и повышения
+              эффективности бизнеса!</p>
+              <p class="price">1 200 <span>&#8381;</span></p>
+            </a>
+            <!--  -->
+            <!--  -->
+            <a href="#" class="cards middle-card">
+              <div class="bg-middle-card middle-card-example-bg"></div>
+              <div class="middle-card-text-wrapper">
+                <p class="authors">петр ивановский</p>
+                <p class="name">Изменения в Гражданском Кодекс РФ</p>
+              </div>
+              <div class="slider-skin">
+                <div class="slider-inner">
+                  <div class="slider-line"></div>
+                </div>
+                <span class="slider-percents">20%</span>
+              </div>
+            </a>
+            <!--  -->
+            <!--  -->
+            <a href="#" class="cards small-card">
+              <div class="bg-small-card small-card-example-bg"></div>
+              <div class="small-card-text-wrapper">
+                <p class="authors">Иван Цуварев</p>
+                <p class="name">Изменения
+                  в Гражданском
+                  Кодексе РФ</p>
+                  <p class="price">Бесплатно</p>
+                </div>
+              </a>
+              <!--  -->
+            </div>
+            <div class="row">
+              <p class="uikit-title">таблицы</p>
+              <table class="standard-table">
+                <thead>
+                  <tr>
+                    <th>
+                      <label>
+                        <input class="input-checkbox" type="checkbox" name="checkbox-test">
+                        <span class="checkbox-skin"></span>
+                      </label>
+                    </th>
+                    <th>Учащийся<button class="icon-arrow-down"></button></th>
+                    <th>Роль<button class="icon-arrow-down"></button></th>
+                    <th>Дата регистрации<button class="icon-arrow-down"></button></th>
+                    <th>Группа<button class="icon-arrow-down"></button></th>
+                    <th colspan="3">Email<button class="icon-arrow-down"></button></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <label>
+                        <input class="input-checkbox" type="checkbox" name="checkbox-test">
+                        <span class="checkbox-skin"></span>
+                      </label>
+                    </td>
+                    <td class="table-man-name"><img src="img/icon-ava.png" alt="">Заявков Настой Петрович</td>
+                    <td>ученик</td>
+                    <td>12.09.2012</td>
+                    <td>пловцы</td>
+                    <td class="table-email">Vaughn83@pisem.net</td>
+                    <td><span class="icon-pen"></span></td>
+                    <td><span class="icon-bin"></span></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <input class="input-checkbox" type="checkbox" name="checkbox-test">
+                        <span class="checkbox-skin"></span>
+                      </label>
+                    </td>
+                    <td class="table-man-name"><img src="img/icon-ava-c.jpg" alt="">Тюрбан Иван Иванович</td>
+                    <td>учитель</td>
+                    <td>12.09.2012</td>
+                    <td></td>
+                    <td class="table-email">noreply@facebookmail.com</td>
+                    <td><span class="icon-pen"></span></td>
+                    <td><span class="icon-bin"></span></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <input class="input-checkbox" type="checkbox" name="checkbox-test">
+                        <span class="checkbox-skin"></span>
+                      </label>
+                    </td>
+                    <td class="table-man-name"><img src="img/icon-ava.png" alt="">Круглый Константин</td>
+                    <td>администратор</td>
+                    <td>12.09.2012</td>
+                    <td></td>
+                    <td class="table-email">Vaughn83@pisem.net</td>
+                    <td><span class="icon-pen"></span></td>
+                    <td><a href="#" class="icon-bin"></a></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <input class="input-checkbox" type="checkbox" name="checkbox-test">
+                        <span class="checkbox-skin"></span>
+                      </label>
+                    </td>
+                    <td class="table-man-name"><img src="img/icon-ava.png" alt="">Тюрбан Иван</td>
+                    <td>ученик</td>
+                    <td>12.09.2012</td>
+                    <td>пловцы</td>
+                    <td class="table-email"><button>noreply@facebookmail.com</button></td>
+                    <td><span class="icon-pen"></span></td>
+                    <td><span class="icon-bin"></span></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label>
+                        <input class="input-checkbox" type="checkbox" name="checkbox-test">
+                        <span class="checkbox-skin"></span>
+                      </label>
+                    </td>
+                    <td class="table-man-name"><img src="img/icon-ava-d.jpeg" alt="">Заявков Настой</td>
+                    <td>учитель</td>
+                    <td>12.09.2012</td>
+                    <td>пловцы</td>
+                    <td class="table-email"><a href="#">Vaughn83@pisem.net</a></td>
+                    <td><a href="#" class="icon-pen"></a></td>
+                    <td><button class="icon-bin"></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/main.js"></script>
+
+    </body>
+  </html>
